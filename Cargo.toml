@@ -1,0 +1,15 @@
+[package]
+name = "learn_coherent_DEM"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+num-complex = "0.4"
+ndarray-linalg = { version = "0.18.0"}
+ndarray = { version = "=0.17.1", features = ["blas"] }
+blas-src = { version = "0.11", features = ["accelerate"] }
+rand = "0.8"
+ndarray-einsum = "0.9.0"
+quantrs2-core = "0.1.0-rc.2"
+quantrs2-circuit = "0.1.0-rc.2"
+quantrs2-sim = "0.1.0-rc.2"
